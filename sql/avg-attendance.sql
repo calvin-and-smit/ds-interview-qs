@@ -17,7 +17,7 @@ date_of_birth	  string	    Student birth date, format is 'yyyy-mm-dd'
 
 /*assuming attendance rate is considering only present students and not tardy or absent */
 
-select * 
-from student_attendance_log
+select grade_level, overall_attendance_rate
+from (subquery)
 where date = "2018-03-12"
 
