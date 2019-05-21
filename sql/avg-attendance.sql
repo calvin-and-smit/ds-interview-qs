@@ -18,6 +18,7 @@ date_of_birth	  string	    Student birth date, format is 'yyyy-mm-dd'
 /*assuming attendance rate is considering only present students and not tardy or absent */
 
 select grade_level, overall_attendance_rate
-from (subquery)
+from 
+  (select a.*, b.* from student_attendance_log as a left join student_demographic as b on a.student_id = b.student_id)
 where date = "2018-03-12"
 
