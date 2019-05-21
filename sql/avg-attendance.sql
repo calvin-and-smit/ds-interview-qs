@@ -25,6 +25,12 @@ where date = "2018-03-12"
 
 /**********************/
 
+select a.date, b.grade_level, count(a.student_id) as class_attendance 
+from student_attendance_log as a 
+left join student_demographic as b
+on a.student_id = b.student_id
+where a.attendance_status = 'present'
+group by a.date, b.grade_level
 
 
 select grade_level, count(student_id) as class_strength from student_demographic
