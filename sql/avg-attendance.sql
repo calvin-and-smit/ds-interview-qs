@@ -17,13 +17,23 @@ date_of_birth	  string	    Student birth date, format is 'yyyy-mm-dd'
 
 /*assuming attendance rate is considering only present students and not tardy or absent */
 
-select grade_level, overall_attendance_rate
+select a.grade_level as Grade_Level, a.class_attendance/b.class_strength as overall_attendance_rate
 from 
-  (select a.*, b.* from student_attendance_log as a left join student_demographic as b on a.student_id = b.student_id)
+  (select a.date, b.grade_level, count(a.student_id) as class_attendance 
+  from student_attendance_log as a 
+  left join student_demographic as b
+  on a.student_id = b.student_id
+  where a.attendance_status = 'present'
+  group by a.date, b.grade_level) as a
+left join 
+  (select grade_level, count(student_id) as class_strength 
+   from student_demographic 
+   group by grade_level) as b
+on a.grade_level = b.grade_level
 where date = "2018-03-12"
 
 
-/**********************/
+/********************************************************************************************
 
 select a.date, b.grade_level, count(a.student_id) as class_attendance 
 from student_attendance_log as a 
@@ -34,3 +44,6 @@ group by a.date, b.grade_level
 
 
 select grade_level, count(student_id) as class_strength from student_demographic
+
+
+********************************************************************************************/
