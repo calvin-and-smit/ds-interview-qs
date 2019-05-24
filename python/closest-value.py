@@ -1,4 +1,4 @@
-'''
+"""
 
 You are given Q 1D points, return the value in Q that is closest to value j
 
@@ -8,5 +8,9 @@ j = 3
 
 Ans:- 2
 
-'''
+"""
+
+def closest_val(Q, j):
+  #do something
+  return #something
 
