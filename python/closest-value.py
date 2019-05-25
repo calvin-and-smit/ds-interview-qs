@@ -11,6 +11,9 @@ Ans:- 2
 """
 
 def closest_val(Q, j):
-  #do something
+  temp_val = 0
+  for i in Q:
+    temp_val = j - i
+    
   return #something
 
