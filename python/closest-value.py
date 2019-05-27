@@ -16,7 +16,7 @@ def closest_val(Q, j):
   temp_val = 0
   closest_value = 0
   for i in Q:
-    diff = j - i
+    diff = abs(j - i)
     if counter = 1:
       temp_val = diff
       closest_value = i
