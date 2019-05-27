@@ -12,8 +12,19 @@ Ans:- 2
 
 def closest_val(Q, j):
   diff = 0
+  counter = 1
+  temp_val = 0
+  closest_value = 0
   for i in Q:
     diff = j - i
+    if counter = 1:
+      temp_val = diff
+      closest_value = i
+    else:
+      if diff < temp_val:
+        temp_val = diff
+        closest_value = i
+    counter += 1
     
-  return #something
+  return closest_value
 
