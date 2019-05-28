@@ -3,7 +3,7 @@ Below is a snippet from a table that contains information about employees that w
 
 employee_name	  employee_id	 date_joined	  age	  yrs_of_experience
 Andy	          123456	     2015-02-15	  45	  24
-Beth	          789456	     NaN      36	  15
+Beth	          789456	     NaN          36	15
 Cindy	          654123	     2017-05-16	  34	  14
 Dale	          963852	     2018-01-15	  25	  4
 
