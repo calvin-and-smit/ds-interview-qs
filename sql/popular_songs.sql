@@ -22,3 +22,7 @@ Can you write a SQL query to estimate the average number of hours a user spends 
 *******************************************************************************************************************/
 
 
+select * 
+from user_song_log as a
+left join song_info as b
+on a.song_id = b.song_id and a.artist_is = b.artist_id
