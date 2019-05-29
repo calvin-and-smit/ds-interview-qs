@@ -1,4 +1,4 @@
-/*************
+/*******************************************************************************************************************
 
 Below are two table schemas for a popular music streaming application:
 Table 1: user_song_log
@@ -19,4 +19,4 @@ Question:
 Can you write a SQL query to estimate the average number of hours a user spends listening to music daily? 
 
 
-*************/
+*******************************************************************************************************************/
