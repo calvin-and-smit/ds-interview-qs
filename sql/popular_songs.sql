@@ -20,3 +20,5 @@ Can you write a SQL query to estimate the average number of hours a user spends 
 
 
 *******************************************************************************************************************/
+
+
