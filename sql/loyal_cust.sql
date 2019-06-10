@@ -27,3 +27,6 @@ is_memeber	        boolean	    indicates if the customer is a member of our poin
 Can you write a query that calculates percent of revenue loyal customers brought in 2017? 
 
 *******************************************************************************************************************/
+
+select * 
+from customer_transactions
