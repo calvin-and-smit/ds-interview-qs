@@ -30,3 +30,10 @@ Can you write a query that calculates percent of revenue loyal customers brought
 
 select * 
 from customer_transactions
+
+
+# membership with point system
+select customer_id
+from customer_transactions
+where is_member = 1
+
