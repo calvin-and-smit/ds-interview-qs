@@ -28,8 +28,19 @@ Can you write a query that calculates percent of revenue loyal customers brought
 
 *******************************************************************************************************************/
 
-select * 
+select cond_2.customer_id
+from 
+(select customer_id, hotel_id, count(distinct transaction_id) as hotel_stays
 from customer_transactions
+group by customer_id, hotel_id
+having hotel_stays > 2) as cond_2
+inner join
+(select customer_id, count(distinct hotel_id) as US_Stays
+from customer_transactions
+where is_member = 1
+group by customer_id
+having US_Stays > 2) as cond_13
+on cond_2.customer_id = cond_13.customer_id
 
 
 
@@ -47,6 +58,9 @@ from customer_transactions
 where is_member = 1
 group by customer_id
 having US_Stays > 2
+
+
+
 
 
 
