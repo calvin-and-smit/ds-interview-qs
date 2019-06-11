@@ -35,7 +35,7 @@ from customer_transactions
 # Loyal Customers "loyal_cust_subquery"
 select cond_2.customer_id
 from 
-(select customer_id, hotel_id, count(distinct transaction_id) as hotel_stays
+(select customer_id, hotel_id, count(distinct transaction_id)/count(distinct hotel_id) as hotel_stays
 from customer_transactions
 group by customer_id, hotel_id
 having hotel_stays > 2) as cond_2
@@ -51,7 +51,7 @@ on cond_2.customer_id = cond_13.customer_id
 
 
 # having > 2 stays at each hotel the customer visited
-select customer_id, hotel_id, count(distinct transaction_id) as hotel_stays
+select customer_id, hotel_id, count(distinct transaction_id)/count(distinct hotel_id) as hotel_stays
 from customer_transactions
 group by customer_id, hotel_id
 having hotel_stays > 2
