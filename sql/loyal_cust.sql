@@ -28,12 +28,11 @@ Can you write a query that calculates percent of revenue loyal customers brought
 
 *******************************************************************************************************************/
 
-select sum(case when customer_id in sub_query_a then total_spend else 0 end)/sum(total_spend)
+select sum(case when customer_id in loyal_cust_subquery then total_spend else 0 end)/sum(total_spend)
 from customer_transactions
 
 
-
-# Loyal Customers
+# Loyal Customers "loyal_cust_subquery"
 select cond_2.customer_id
 from 
 (select customer_id, hotel_id, count(distinct transaction_id) as hotel_stays
