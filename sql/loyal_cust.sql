@@ -32,8 +32,20 @@ select *
 from customer_transactions
 
 
-# membership with point system
+
+
+# having >2 stays at each hotel the customer visited
 select customer_id
 from customer_transactions
+
+
+# membership with point system and having stayed at 3 different locations throughout the US
+select customer_id, count(distinct hotel_id) as US_Stays
+from customer_transactions
 where is_member = 1
+group by customer_id
+having US_Stays > 2
+
+
+
 
