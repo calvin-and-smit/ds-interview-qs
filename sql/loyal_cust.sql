@@ -35,7 +35,7 @@ from customer_transactions
 
 
 # having >2 stays at each hotel the customer visited
-select customer_id
+select customer_id, hotel
 from customer_transactions
 
 
