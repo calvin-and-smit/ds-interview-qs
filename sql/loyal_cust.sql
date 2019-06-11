@@ -29,6 +29,9 @@ Can you write a query that calculates percent of revenue loyal customers brought
 *******************************************************************************************************************/
 
 
+# Total Revenue
+select sum(total_spend) as Total_Revenue
+from customer_transactions
 
 
 
