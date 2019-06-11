@@ -28,11 +28,8 @@ Can you write a query that calculates percent of revenue loyal customers brought
 
 *******************************************************************************************************************/
 
-
-# Total Revenue
-select sum(total_spend) as Total_Revenue
+select sum(case when customer_id in sub_query_a then total_spend else 0 end)/sum(total_spend)
 from customer_transactions
-
 
 
 
