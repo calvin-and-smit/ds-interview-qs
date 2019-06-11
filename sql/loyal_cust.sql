@@ -34,7 +34,7 @@ from customer_transactions
 
 
 
-# having >2 stays at each hotel the customer visited
+# having > 2 stays at each hotel the customer visited
 select customer_id, hotel_id, count(distinct transaction_id) as hotel_stays
 from customer_transactions
 group by customer_id, hotel_id
