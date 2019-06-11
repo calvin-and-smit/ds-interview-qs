@@ -28,6 +28,12 @@ Can you write a query that calculates percent of revenue loyal customers brought
 
 *******************************************************************************************************************/
 
+
+
+
+
+
+# Loyal Customers
 select cond_2.customer_id
 from 
 (select customer_id, hotel_id, count(distinct transaction_id) as hotel_stays
