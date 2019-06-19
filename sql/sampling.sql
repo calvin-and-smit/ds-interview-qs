@@ -2,9 +2,13 @@
 
 Question 22 - Picking a survey group
 ________________________________________
-You work for a large hardware company (one that manufactures watches, computers, and phones) and you're trying to understand user sentiment towards the company's brand and the products. You decide to send out a survey to a random set of users across different products. 
+You work for a large hardware company (one that manufactures watches, computers, and phones) and you're trying to 
+understand user sentiment towards the company's brand and the products. You decide to send out a survey to a random 
+set of users across different products. 
 
-Can you create a query that samples across the different product offerings? The output of your query should be user_id and group (e.g. the sampling group the user belongs to).
+Can you create a query that samples across the different product offerings? The output of your query should be user_id 
+and group (e.g. the sampling group the user belongs to).
+
 You have a table with all users and their registered devices. The schema of the table is below:
 
 Table: user_devices
