@@ -9,3 +9,6 @@ Write a function that takes in an integer n, and prints out integers from 1 to n
 
 """
 
+
+def foo(n):
+  return n
