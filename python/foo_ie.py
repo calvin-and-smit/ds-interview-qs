@@ -20,3 +20,7 @@ def foo(n):
             print('foo')
         else:
             print(i)
+
+            
+            
+#foo(16)
