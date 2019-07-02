@@ -5,12 +5,12 @@ Can you write a SQL query to answer the question?
 
 You have one table with property location information and another with stay information. The schema each table is shown below:
 Table: property_location_info
-Column Name	Data Type	Description
-property_id	integer	ID of the property location
-country	string	country code of the property location
-city_name	string	name of city (note there can be multiple cities with the same name)
-subregion_name	string	provience, state, or subregion name
-address	string	address of property location
+Column Name	      Data Type	  Description
+property_id	      integer	    ID of the property location
+country	          string	    country code of the property location
+city_name	        string	    name of city (note there can be multiple cities with the same name)
+subregion_name	  string	    provience, state, or subregion name
+address	          string	    address of property location
 
 Table: stays_info
 Column Name	Data Type	Description
