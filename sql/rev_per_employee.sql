@@ -1,3 +1,5 @@
+/*******************************************************************************************************************
+
 Question 32 - Revenue per employee 
 ________________________________________
 You're analyzing revenue for Company XYZ and want to understand what the revenue per employee was in 2017. You have the following tables: 
@@ -14,3 +16,6 @@ product_area	string	product area that employee works in
 revenue	integer	revenue made on the given date in USD
 
 Can you write a query to calculate revenue per employee by product area? 
+
+
+*******************************************************************************************************************/
