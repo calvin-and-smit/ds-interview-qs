@@ -1,3 +1,5 @@
+/*******************************************************************************************************************
+
 Question 27 - Property revenue across cities
 ________________________________________
 Suppose you work for Airbnb as an analyst. A team has come to you asking which cities make the highest revenue for the company in 2017. 
@@ -22,3 +24,5 @@ date_start	string	start day of stay, format is "YYYY-mm-dd"
 date_end	string	end day of stay, format is "YYYY-mm-dd"
 stay_length	integer	number of days for the stay
 airbnb_revenue	integer	revenue that Airbnb collected on stay
+
+*******************************************************************************************************************/
