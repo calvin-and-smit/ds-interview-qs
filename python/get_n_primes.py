@@ -19,3 +19,8 @@ def check_prime(n):
             return
     print(str(n) + ' is a prime number')
     return
+
+
+#check_prime(1)
+#check_prime(10)
+#check_prime(11003)
