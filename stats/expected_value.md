@@ -9,3 +9,6 @@ Roll	Payout
 3	$0  
 2	$0  
 1	$0  
+
+
+Answer: Yes, since the expected value is 7/6 (which is more than $1)
