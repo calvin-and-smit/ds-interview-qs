@@ -10,3 +10,9 @@ Given this dataset, can you use SQL to find the employees that are also managers
 Hint: given the table names as well as the single column name you should be able to write a full SQL query.
 
 *********************************************************************************/
+
+
+select e.id
+from employees_table as e
+inner join managers_table as m
+on e.id = m.id
