@@ -26,3 +26,7 @@ stay_length	integer	number of days for the stay
 airbnb_revenue	integer	revenue that Airbnb collected on stay
 
 *******************************************************************************************************************/
+
+
+select *
+from property_location_info
