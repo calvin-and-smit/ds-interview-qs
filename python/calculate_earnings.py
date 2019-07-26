@@ -14,3 +14,17 @@ For example, if an individual earns $55/hour and works for 40 hours, the functio
 
 
 """
+
+
+def calculate_earnings(hours_worked, hourly_rate):
+    pre_tax = hours_worked*hourly_rate
+    
+    if pre_tax >= 2000:
+        post_tax = pre_tax*0.7
+        return pre_tax, post_tax
+    else:
+        post_tax = pre_tax*0.85
+        return pre_tax, post_tax
+    
+
+#calculate_earnings(40, 40)
