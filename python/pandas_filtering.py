@@ -14,3 +14,5 @@ Write code using Python Pandas to select the rows where the students' favorite c
 
 """
 
+
+import pandas as pd
