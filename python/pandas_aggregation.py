@@ -22,3 +22,5 @@ You decide to aggregate (e.g. pivot) the events by each app to provide a quick s
 Write the aggregation using Python (Pandas).
 """
 
+
+import pandas as pd
