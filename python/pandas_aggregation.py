@@ -12,7 +12,9 @@ time	        integer	    epoch time of response
 user_id	      integer	    unique id of user
 app_id	      integer	    unique id of application
 app_name	    string	    name of application
-event	        string	    Possible values are: impressed (when user sees the dialog box), "Yes" (when user clicks yes). There is no logging for when the user clicks "No".
+event	        string	    Possible values are: impressed (when user sees the dialog box), "Yes" (when user clicks yes). 
+
+There is no logging for when the user clicks "No".
 
 
 Question: A Product Manager asked you to give an update on how the Alpha Launch is going. 
