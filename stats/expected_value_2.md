@@ -10,7 +10,7 @@ Answer:
 If its a one time roll, then no since the expected value is (-130/9)
 
 If it can be multiple, then we can use something like below to calculate:
-`
+```
 import numpy as np
 
 
@@ -35,4 +35,4 @@ def roll_the_dice(winning_sums, winnings, cost, max_tries):
         
 
 roll_the_dice([9], 50, 20, 100)
-`
+```
