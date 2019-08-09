@@ -24,6 +24,7 @@ Revenue:
 4	5		200
 5	6		100
 
-Using SQL, write a query to show the total revenue by channel for the months of September and October. Additionally, try to think of the most efficient way to run this query.
+Using SQL, write a query to show the total revenue by channel for the months of September and October. 
+Additionally, try to think of the most efficient way to run this query.
 
 *******************************************************************************************************************/
