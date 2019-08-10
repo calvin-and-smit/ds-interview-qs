@@ -28,3 +28,11 @@ Using SQL, write a query to show the total revenue by channel for the months of 
 Additionally, try to think of the most efficient way to run this query.
 
 *******************************************************************************************************************/
+
+
+(
+select a.*, b.revenue
+from Orders as a
+left join Revenue as b
+on a.order_id = b.order_id
+)
