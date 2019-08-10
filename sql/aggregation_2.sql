@@ -29,10 +29,13 @@ Additionally, try to think of the most efficient way to run this query.
 
 *******************************************************************************************************************/
 
-
+select channel. month, sum(revenue) as total_revenue
+from
 (
 select a.*, b.revenue
 from Orders as a
 left join Revenue as b
 on a.order_id = b.order_id
+where month = "September" or month = "October"
 )
+group by channel, month
