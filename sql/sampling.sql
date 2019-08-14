@@ -21,3 +21,8 @@ total_spend	        integer	            lifetime spend of a user
 country	            string	            user country
 
 ****************************************************************************************/
+
+
+
+select *
+from user_devices
