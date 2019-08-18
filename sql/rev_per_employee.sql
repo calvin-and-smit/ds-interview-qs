@@ -19,3 +19,7 @@ Can you write a query to calculate revenue per employee by product area?
 
 
 *******************************************************************************************************************/
+
+
+select *
+from employees
