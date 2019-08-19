@@ -23,6 +23,7 @@ price	integer	price per item
 shipping_id	integer	id of shipping information
 region	string	region of shipping id
 
-Write a SQL query to find the top 5 selling products by region. Include both the distributor id as well as the name of the product in your results.
+Write a SQL query to find the top 5 selling products by region. 
+Include both the distributor id as well as the name of the product in your results.
 
 *******************************************************************************/
