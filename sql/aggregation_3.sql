@@ -1,3 +1,5 @@
+/*******************************************************************************
+
 Question 48 - Top selling products
 ________________________________________
 You’re an analyst for an e-commerce store. You’re trying to identify the top selling products in Q4 2017 by region. You have 2 tables that you can query. 
@@ -20,3 +22,5 @@ shipping_id	integer	id of shipping information
 region	string	region of shipping id
 
 Write a SQL query to find the top 5 selling products by region. Include both the distributor id as well as the name of the product in your results.
+
+*******************************************************************************/
