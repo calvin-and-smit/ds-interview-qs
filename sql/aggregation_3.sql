@@ -8,9 +8,9 @@ You have 2 tables that you can query.
 Table: all_products
 Column Name	      Data Type	  Description
 product_id	      integer	    id of the product
-product_name	    string	    name of the product 
+product_name	      string	    name of the product 
 sku	              integer     universal stockkeeping unit number
-distributor_id	  integer	    unique id for distributor
+distributor_id	    integer	    unique id for distributor
 
 Table: orders
 Column Name	Data Type	Description
