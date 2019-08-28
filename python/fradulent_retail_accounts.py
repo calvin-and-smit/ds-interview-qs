@@ -1,3 +1,5 @@
+"""
+
 Question 1 - Fradulent retail accounts
 
 Below is a daily table for an active accounts at Shopify (an online ecommerce, retail platform).
@@ -20,4 +22,9 @@ Given the above, write code using Python (Pandas library) to show what percent o
 Some clarifications:
 
 We want one value for each day in the month.
-A store can be fraudulent and active on same day. E.g. they could generate revenue until 10AM, then be flagged as fradulent from 10AM onward.
+A store can be fraudulent and active on same day. E.g. they could generate revenue until 10AM, 
+then be flagged as fradulent from 10AM onward.
+
+"""
+
+import pandas as pd
