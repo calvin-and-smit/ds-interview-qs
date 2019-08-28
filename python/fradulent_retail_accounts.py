@@ -5,8 +5,8 @@ Question 1 - Fradulent retail accounts
 Below is a daily table for an active accounts at Shopify (an online ecommerce, retail platform).
 
 The table is called store_account and the columns are:
-Column Name	  Data Type	  Description
-store_id	   integer	    a unique Shopify store id
+Column Name	  Data Type	    Description
+store_id	  integer	    a unique Shopify store id
 date	          string	    date
 status	          string	    Possible values are: [‘open’, 'closed’, ‘fraud’]
 revenue	          double	    Amount of spend in USD
