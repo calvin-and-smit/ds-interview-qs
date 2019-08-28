@@ -6,10 +6,10 @@ Below is a daily table for an active accounts at Shopify (an online ecommerce, r
 
 The table is called store_account and the columns are:
 Column Name	  Data Type	  Description
-store_id	    integer	    a unique Shopify store id
-date	        string	    date
-status	      string	    Possible values are: [‘open’, 'closed’, ‘fraud’]
-revenue	      double	    Amount of spend in USD
+store_id	   integer	    a unique Shopify store id
+date	      string	    date
+status	        string	    Possible values are: [‘open’, 'closed’, ‘fraud’]
+revenue	          double	    Amount of spend in USD
 Here's some more information about the table:
 
 The granularity of the table is store_id and day
