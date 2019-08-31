@@ -28,3 +28,5 @@ index	Month	Day	Revenue ($)
 89	3	30	13
 
 """
+
+import pandas as pd
