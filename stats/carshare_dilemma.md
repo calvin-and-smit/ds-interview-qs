@@ -9,3 +9,6 @@ and 25% like neither Lyft nor Uber.
 Given this information, what percentage of the sample likes Lyft?
 
 Hint: You can use basic probability theory to solve this problem.
+
+
+Answer: **_40%_**
