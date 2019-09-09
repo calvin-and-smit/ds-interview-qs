@@ -1,6 +1,9 @@
+/************************************************************
+
 Question 5 - Employee survey results
 
-You're consulting for a company, and you've sent out a survey that asks successive qustions randomly. The survey logs data into a table called survey_logging. The schema of the table is:
+You're consulting for a company, and you've sent out a survey that asks successive qustions randomly. 
+The survey logs data into a table called survey_logging. The schema of the table is:
 
 
 Column Name	Data Type	Description
@@ -11,3 +14,5 @@ answer_id	integer	ID of the answer asked
 timestamp	integer	time stamp of the action made by respondant
 
 Question: Using SQL, find which question has the highest response rate.
+
+************************************************************/
