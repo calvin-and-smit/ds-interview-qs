@@ -8,7 +8,7 @@ The survey logs data into a table called survey_logging. The schema of the table
 
 Column Name	Data Type	Description
 employee_id	integer	employee id of the survey respondant
-action	string	Will be one of the following values, 'view', 'answer', 'skip'
+action	  string	Will be one of the following values, 'view', 'answer', 'skip'
 question_id	integer	ID of the question asked
 answer_id	integer	ID of the answer asked
 timestamp	integer	time stamp of the action made by respondant
