@@ -16,3 +16,11 @@ timestamp	integer	        time stamp of the action made by respondant
 Question: Using SQL, find which question has the highest response rate.
 
 ************************************************************/
+
+
+select question_id, count(answer_id)/(select count(*) from survey_logging) as Response_Rate
+from survey_logging
+where action = 'answer'
+group by question_id
+order by Response_Rate desc
+limit 1
