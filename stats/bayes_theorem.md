@@ -1,4 +1,5 @@
 Question 7 - Probability of passing through interview stages
+____________________________
 
 Question: Given the information below, if you had a good first interview, what is the probability you will receive a second interview?
 
