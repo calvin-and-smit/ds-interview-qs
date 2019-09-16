@@ -1,3 +1,5 @@
+"""
+
 Question 9 - Time for a response on a messaging application
 
 Below is a table schema for a P2P messaging application. The table contains send/receive message data for the application's users.
@@ -10,3 +12,7 @@ sender_id	integer	id of the message sender
 receiver_id	integer	id of the message receiver
 Question: Using Python and the Pandas library, how would you find the fraction of messages that get a response within 5 minutes?
 For simplicity, let's limit data to March 1, 2018.
+
+"""
+
+import pandas as pd
