@@ -1,4 +1,6 @@
-Interview Query Question #4 | Rejection Reason
+# Interview Query Question #4 | Rejection Reason
+
+
 Good morning. Here's your modeling question for today.
 
 This question was asked by: Affirm
