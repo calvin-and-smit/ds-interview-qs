@@ -10,9 +10,9 @@ test scores with the score difference. Assume a random pick if there are multipl
 `scores` table
 
 column	  type
-id	      integer
-student	  varchar
-score	    integer
+id	    integer
+student	 varchar
+score	  integer
 
 
 Example:
