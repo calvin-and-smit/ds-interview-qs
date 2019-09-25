@@ -19,11 +19,11 @@ Example:
 
 input
 
-id	student	score
-1	Jack	1700
-2	Alice	2010
-3	Miles	2200
-4	Scott	2100
+id	  student	  score
+1	  Jack	  1700
+2	  Alice	  2010
+3	  Miles	  2200
+4	  Scott	  2100
 output
 
 one_student	other_student	score_diff
