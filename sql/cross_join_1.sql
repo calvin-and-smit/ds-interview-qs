@@ -19,7 +19,7 @@ Example:
 
 input
 
-id	  student	  score
+id	  student	 score
 1	  Jack	      1700
 2	  Alice	      2010
 3	  Miles	      2200
@@ -27,6 +27,6 @@ id	  student	  score
 output
 
 one_student	  other_student	  score_diff
-Alice	  Scott	        90
+Alice	        Scott	        90
 
 *******************************************************************************************************************/
