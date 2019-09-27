@@ -22,7 +22,13 @@ Can you write a SQL query to estimate the average number of hours a user spends 
 *******************************************************************************************************************/
 
 
-select * 
-from user_song_log as a
-left join song_info as b
-on a.song_id = b.song_id and a.artist_is = b.artist_id
+select user_id, date, avg(song_length)/3600 as avg_hrs
+from
+(
+  select logs.user_id, logs.song_id, DATE(TIMESTAMP_MILLIS(CAST(logs.timestamp AS INT64))) as date, info.song_length
+  from user_song_log as logs
+  left join song_info as info
+  on logs.song_id = info.song_id
+)
+group by user_id, date
+                                                    
