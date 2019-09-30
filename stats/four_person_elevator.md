@@ -9,4 +9,7 @@ If each person is equally likely to get on any floor and they leave independentl
 <br/>
 
 
-Answer = $$(5.4.3.2)/(5.5.5.5)$$
+Answer = 
+$$
+(5*4*3*2)/(5*5*5*5)
+$$
