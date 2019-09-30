@@ -9,3 +9,4 @@ and a diamond in that order?
 
 
 Answer: 
+P = (13/52).(13/51).(13/50) = 0.0165
