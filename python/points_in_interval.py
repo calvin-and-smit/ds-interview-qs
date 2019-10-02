@@ -20,3 +20,23 @@ Output: 3
 At z = 5, there are 3 intervals that overlap. The intervals are: [3, 7], [4, 6], and [1, 5]
 '''
 
+
+def lies_in_range(r, x):
+  min = r[0]
+  max = r[1]
+  if x >= min and x <= max:
+    return True
+  else:
+    return False
+
+  
+P = [[0, 2], [3, 7], [4, 6], [7, 8], [1 ,5]]
+z = 5
+
+counter = 1
+for r in P:
+  if lies_in_range(r, z):
+    counter += 1
+
+    
+print(counter)
