@@ -22,9 +22,9 @@ At z = 5, there are 3 intervals that overlap. The intervals are: [3, 7], [4, 6],
 
 
 def lies_in_range(r, x):
-  min = r[0]
-  max = r[1]
-  if x >= min and x <= max:
+  r_min = r[0]
+  r_max = r[1]
+  if x >= r_min and x <= r_max:
     return True
   else:
     return False
