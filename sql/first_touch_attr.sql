@@ -16,22 +16,28 @@ conversion	  boolean
 
 `user_sessions` table
 
-column	user_id
+column	      user_id
 session_id	int
-user_id	int
+user_id	      int
+
 The schema above is for a retail online shopping company.
 
-The attribution table logs each user visit where a user comes onto their site to go shopping. If conversion = 1, then on that session visit the user converted and bought an item. The channel column represents which advertising platform the user got to the shopping site on that session. The `user_sessions` table maps each session visit back to the user.
 
-First touch attribution is defined as the channel to which the converted user was associated with when they first discovered the website. Calculate the first touch attribution for each user_id that converted.
+The attribution table logs each user visit where a user comes onto their site to go shopping. 
+If conversion = 1, then on that session visit the user converted and bought an item. 
+The channel column represents which advertising platform the user got to the shopping site on that session. 
+The `user_sessions` table maps each session visit back to the user.
+
+First touch attribution is defined as the channel to which the converted user was associated with when they 
+first discovered the website. Calculate the first touch attribution for each user_id that converted.
 
 Example output:
 
-user_id	channel
-123	facebook
-145	google
-153	facebook
-172	organic
-173	email
+user_id	  channel
+123	      facebook
+145	      google
+153	      facebook
+172	      organic
+173	      email
 
 *******************************************************************************************************************/
