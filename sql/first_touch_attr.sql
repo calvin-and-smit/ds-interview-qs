@@ -45,17 +45,17 @@ user_id	      channel
 select user, channel
 from
 (
-select u.user_id as user, a.channel as channel, min(a.datetime) as first_interaction
-from attribution as a
-left join user_sessions as u
-on a.session_id = u.session_id
-where user_id in 
-(
-select u.user_id as user
-from attribution as a
-left join user_sessions as u
-on a.session_id = u.session_id
-where a.conversion = 1
-)
-group by u.user_id
+  select u.user_id as user, a.channel as channel, min(a.datetime) as first_interaction
+  from attribution as a
+  left join user_sessions as u
+  on a.session_id = u.session_id
+  where user_id in 
+  (
+    select u.user_id as user
+    from attribution as a
+    left join user_sessions as u
+    on a.session_id = u.session_id
+    where a.conversion = 1
+  )
+  group by u.user_id
 )
