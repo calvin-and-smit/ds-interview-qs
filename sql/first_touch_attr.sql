@@ -1,15 +1,19 @@
+/*******************************************************************************************************************
+
 First Touch Attribution
-Good morning. Here's your sql question for today.
 
 This question was asked by: Google
+
 `attribution` table
 
-column	type
-id	int
-created_at	datetime
-session_id	int
-channel	varchar
-conversion	boolean
+column	  type
+id	  int
+created_at	  datetime
+session_id	  int
+channel	  varchar
+conversion	  boolean
+
+
 `user_sessions` table
 
 column	user_id
@@ -29,3 +33,5 @@ user_id	channel
 153	facebook
 172	organic
 173	email
+
+*******************************************************************************************************************/
