@@ -33,7 +33,7 @@ def lies_in_range(r, x):
 P = [[0, 2], [3, 7], [4, 6], [7, 8], [1 ,5]]
 z = 5
 
-counter = 1
+counter = 0
 for r in P:
   if lies_in_range(r, z):
     counter += 1
