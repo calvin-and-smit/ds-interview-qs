@@ -41,3 +41,11 @@ user_id	      channel
 173	      email
 
 *******************************************************************************************************************/
+
+
+
+select u.user_id
+from attribution as a
+left join user_sessions as u
+on a.session_id = u.session_id
+where a.conversion = 1
