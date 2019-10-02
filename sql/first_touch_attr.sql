@@ -33,7 +33,7 @@ first discovered the website. Calculate the first touch attribution for each use
 
 Example output:
 
-user_id	    channel
+user_id	      channel
 123	      facebook
 145	      google
 153	      facebook
