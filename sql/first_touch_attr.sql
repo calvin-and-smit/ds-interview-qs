@@ -16,9 +16,9 @@ conversion	  boolean
 
 `user_sessions` table
 
-column	      user_id
+column	        user_id
 session_id	int
-user_id	      int
+user_id	        int
 
 The schema above is for a retail online shopping company.
 
@@ -33,7 +33,7 @@ first discovered the website. Calculate the first touch attribution for each use
 
 Example output:
 
-user_id	  channel
+user_id	    channel
 123	      facebook
 145	      google
 153	      facebook
