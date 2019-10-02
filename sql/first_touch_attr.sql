@@ -6,11 +6,11 @@ This question was asked by: Google
 
 `attribution` table
 
-column	  type
-id	  int
+column	      type
+id	      int
 created_at	  datetime
 session_id	  int
-channel	  varchar
+channel	    varchar
 conversion	  boolean
 
 
