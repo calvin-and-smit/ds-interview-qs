@@ -3,7 +3,7 @@ Question 17 - Analyzing employee data using pandas
 
 Below is a snippet from a table that contains information about employees that work at Company XYZ: 
 
-Column name	        Data type	  Example value	  Description
+Column name	        Data type	Example value	  Description
 employee_name	        string	        Cindy	          Name of employee
 employee_id	        integer	        1837204	        Unique id for each employee
 yrs_of_experience	integer	        14	            total working years of experience
