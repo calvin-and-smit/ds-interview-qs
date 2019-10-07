@@ -39,12 +39,12 @@ Note: created_at doesn't show timestamps but assume it is a datetime column.
 Output:
 
 mean_right_swipes	  variant	swipe_threshold	num_users
-5.3	              control	10	9560
-5.6	              test	10	9450
-20.1	          control	50	2001
-22.0	          test	50	2019
-33.0	          control	100	590
-34.0	          test	100	568
+5.3	                control	10	9560
+5.6	                test	10	9450
+20.1	              control	50	2001
+22.0	              test	50	2019
+33.0	              control	100	590
+34.0	              test	100	568
 
 
 *************************************************************************************************************/
