@@ -18,9 +18,9 @@ Example Input:
 `variants`
 
 id	experiment	variant	  user_id
-1	  feed_change	control	  123
-2	  feed_change	test	    567
-3	  feed_change	control	  996
+1	feed_change	control	  123
+2	feed_change	test	  567
+3	feed_change	control	  996
 
 
 `swipes`
