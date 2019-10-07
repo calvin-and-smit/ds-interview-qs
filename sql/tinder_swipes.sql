@@ -1,23 +1,28 @@
 /*************************************************************************************************************
 
 Swipe Precision
-Good morning. Here's your sql question for today.
 
 This question was asked by: Tinder
-There are two tables. One table is called `swipes` that holds a row for every Tinder swipe and contains a boolean column that determines if the swipe was a right or left swipe called `is_right_swipe`. The second is a table named `variants` that determines which user has which variant of an AB test.
+There are two tables. One table is called `swipes` that holds a row for every Tinder swipe and contains a boolean column 
+that determines if the swipe was a right or left swipe called `is_right_swipe`. The second is a table named `variants` 
+that determines which user has which variant of an AB test.
 
-Write a SQL query to output the average number of right swipes for two different variants of a feed ranking algorithm by comparing users that have swiped the first 10, 50, and 100 swipes on their feed.
+Write a SQL query to output the average number of right swipes for two different variants of a feed ranking algorithm 
+by comparing users that have swiped the first 10, 50, and 100 swipes on their feed.
 
-Tip: Users have to have swiped at least 10 times to be included in the subset of users to analyze the mean number of right swipes.
+Tip: Users have to have swiped at least 10 times to be included in the subset of users to analyze 
+the mean number of right swipes.
 
 Example Input:
 
 `variants`
 
-id	experiment	variant	user_id
-1	feed_change	control	123
-2	feed_change	test	567
-3	feed_change	control	996
+id	experiment	variant	  user_id
+1	  feed_change	control	  123
+2	  feed_change	test	    567
+3	  feed_change	control	  996
+
+
 `swipes`
 
 id	user_id	swiped_user_id	created_at	is_right_swipe
