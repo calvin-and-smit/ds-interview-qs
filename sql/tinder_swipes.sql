@@ -1,3 +1,5 @@
+/*************************************************************************************************************
+
 Swipe Precision
 Good morning. Here's your sql question for today.
 
@@ -38,3 +40,9 @@ mean_right_swipes	variant	swipe_threshold	num_users
 22.0	test	50	2019
 33.0	control	100	590
 34.0	test	100	568
+
+
+*************************************************************************************************************/
+
+select *
+from swipes
