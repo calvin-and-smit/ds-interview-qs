@@ -14,11 +14,11 @@ represents an individual user product purchase.
 
 transactions table
 
-column	    type
-user_id	    int
+column	        type
+user_id	        int
 created_at	datetime
 product_id	int
-quantity	  int
-price	      float
+quantity	int
+price	        float
 
 **************************************************************************************************/
