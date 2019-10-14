@@ -22,3 +22,9 @@ quantity	int
 price	        float
 
 **************************************************************************************************/
+
+
+select count(distinct user_id)
+from transactions
+group by user_id
+where count(distinct extract_date(created_at)) > 1
