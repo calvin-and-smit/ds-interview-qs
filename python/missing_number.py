@@ -11,3 +11,16 @@ nums = [0,1,2,4,5]
 missingNumber(nums) -> 3
 Complexity of O(N) required
 '''
+
+
+def missingNumber(nums):
+  i = 0
+  for i in range(0, len(nums)):
+    if i == nums[i]:
+      continue
+    else:
+      return i
+  return max(nums)+1
+
+    
+missingNumber([0,1,2,4,5])
