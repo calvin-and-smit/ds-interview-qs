@@ -28,12 +28,20 @@ airbnb_revenue	integer	revenue that Airbnb collected on stay
 *******************************************************************************************************************/
 
 
-
-
+select country, city_name, sum(rev) as revenue
+from 
 (
-  select property_id, sum(airbnb_revenue) as rev
-  from stays_info
-  where substring(date_start, 1, 4) = '2017'
-  group by property_id
-  ) as revenue
- 
+  select p.property_id, p.country, p.city_name, revenue.rev
+  from property_location_info as p
+  left join
+  (
+    select property_id, sum(airbnb_revenue) as rev
+    from stays_info
+    where substring(date_start, 1, 4) = '2017'
+    group by property_id
+    ) as revenue
+  on p.property_id = revenue.property_id
+  )
+group by country, city_name
+order by desc revenue
+
