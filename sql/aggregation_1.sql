@@ -28,5 +28,12 @@ airbnb_revenue	integer	revenue that Airbnb collected on stay
 *******************************************************************************************************************/
 
 
-select *
-from property_location_info
+
+
+(
+  select property_id, sum(airbnb_revenue) as rev
+  from stays_info
+  where substring(date_start, 1, 4) = '2017'
+  group by property_id
+  ) as revenue
+ 
