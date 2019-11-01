@@ -9,6 +9,7 @@ Amy and Brad take turns in rolling a fair six-sided die. Whoever rolls a "6" fir
 What's the probability that Amy wins?
 
 Answer: 
+
 probability of winning is throwing 6. prob of throwing 6 is 1/6.
 
 prob of winning = 1/6
