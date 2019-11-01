@@ -22,9 +22,9 @@ suppose if A throws and if 6 comes then the game will stop and A will win. but i
 
 it will be like
 
-A+ ~A~BA+ ~A~B~A~BA+..........
+A + A'B'A + A'B'A'B'A + ..........
 
-HERE  A denotes A wins and ~A means A loses i.e 6 does not come . similarly ~B means B loses.
+HERE  A denotes A wins and A' means A loses i.e 6 does not come . similarly B' means B loses.
 
 this will form an infinite  geometric progession series
 
