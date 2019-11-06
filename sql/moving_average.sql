@@ -1,16 +1,18 @@
 /***************************************************************************************************
 
 Rolling Bank Transactions
-Good morning. Here's your sql question for today.
 
 This question was asked by: Dropbox
+
 `bank_transactions` table
 
-column	type
-user_id	int
+column	  type
+user_id	  int
 created_at	datetime
 transaction_value	float
-We're given a table bank transactions with three columns, user_id, a deposit or withdrawal value, and created_at time for each transaction.
+
+We're given a table bank transactions with three columns, user_id, a deposit or withdrawal value, 
+and created_at time for each transaction.
 
 Write a query to get the total three day rolling average for deposits by day.
 
@@ -27,6 +29,8 @@ user_id	created_at	transaction_value
 3	2019-01-03	5
 2	2019-01-04	10
 1	2019-01-04	10
+
+
 Output
 
 dt	rolling_three_day
