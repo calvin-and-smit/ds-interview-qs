@@ -6,9 +6,9 @@ This question was asked by: Dropbox
 
 `bank_transactions` table
 
-column	          type
-user_id	          int
-created_at	      datetime
+column	                type
+user_id	                int
+created_at	        datetime
 transaction_value	float
 
 We're given a table bank transactions with three columns, user_id, a deposit or withdrawal value, 
