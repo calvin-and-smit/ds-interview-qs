@@ -20,6 +20,18 @@ Can you write a query to calculate revenue per employee by product area?
 
 *******************************************************************************************************************/
 
+select r.product_area, (r.pa_rev/e.pa_employees) as revenue_per_employee
+from 
+(
+  select product_area, sum(revenue) as pa_rev
+  from revenue
+  group by product_area
+) as r
+left join
+(
+  select product_area, count(distinct employeeid) as pa_employees
+  from employees
+  group by product_area
+) as e
+on r.product_area = e.product_area
 
-select *
-from employees
