@@ -12,8 +12,8 @@ and O(n) space without using the python set function.
 '''
 
 
-li_X = [1, 2, 3]
-li_Y = [1, 3]
+li_X = [-3, -2, -1, 0, 1, 2, 3]
+li_Y = [-3, -2, 0, 1, 2, 3]
 
 def find_missing_element(x, y):
   return sum(x) - sum(y)
