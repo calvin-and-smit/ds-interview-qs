@@ -10,3 +10,13 @@ Write a function that takes in both lists and returns the integer that was remov
 and O(n) space without using the python set function.
 
 '''
+
+
+li_X = [1, 2, 3]
+li_Y = [1, 3]
+
+def find_missing_element(x, y):
+  return sum(x) - sum(y)
+
+
+find_missing_element(li_X, li_Y)
