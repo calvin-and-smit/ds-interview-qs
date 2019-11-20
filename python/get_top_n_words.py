@@ -3,7 +3,8 @@ Get top N words
 Good morning. Here's your python question for today.
 
 This question was asked by: Indeed
-1. Given an example paragraph string and an integer N, write a function that returns the top N frequent words in the posting and the frequencies for each word.
+1. Given an example paragraph string and an integer N, write a function that returns the top N 
+frequent words in the posting and the frequencies for each word.
 
 2. What's the function run-time?
 
@@ -23,3 +24,5 @@ output = [
 ]
 
 '''
+
+
