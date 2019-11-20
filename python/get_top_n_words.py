@@ -26,3 +26,18 @@ output = [
 '''
 
 
+def getKey(item):
+    return item[1]
+
+def most_frequent_n_words(text_chunk, n):
+    words = text_chunk.lower().replace('\n', '').replace('.', '').replace(',', '').replace('[^A-Za-z0-9 ]+', '').split(' ')
+    d = dict()
+    for word in words:
+        if word in d:
+            d[word] += 1
+        else:
+            d[word] = 1
+    
+    print(sorted(d.items(), key = getKey)[-n:])
+
+most_frequent_n_words(posting, n)
