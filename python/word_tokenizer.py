@@ -14,3 +14,23 @@ individual words across all the reviews
 
 """
 
+import re
+
+def cleanText(s):
+    return re.sub('[^A-Za-z ]+', '', str(s))
+
+def countwords(reviews_list):
+    wordcount = dict()
+    for review in reviews_list:
+        r = cleanText(review)
+        words = r.split(' ')
+        for word in words:
+            if word in wordcount:
+                wordcount[word] += 1
+            else:
+                wordcount[word] = 1
+    
+    return wordcount
+
+
+countwords(reviews)
