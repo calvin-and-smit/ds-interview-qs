@@ -9,5 +9,5 @@ Given that you see 10 heads, what is the probability that the coin is double hea
 
 Give your answer to 3 significant figures.
 
-Click [here](https://www.glassdoor.com.hk/Interview/A-conditional-probability-Bayes-theorem-problem-About-jars-and-coins-QTN_857368.htm)
+Click [here](https://www.glassdoor.com.hk/Interview/A-conditional-probability-Bayes-theorem-problem-About-jars-and-coins-QTN_857368.htm) </br>
 Also [here](https://puzzling.stackexchange.com/questions/23801/a-jar-of-mixed-coins)
