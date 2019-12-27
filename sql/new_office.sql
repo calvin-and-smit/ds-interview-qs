@@ -30,4 +30,17 @@ City
 
 ******************************************************************************************/
 
-
+select c.city as City, (c.c_count + s.s_count) as appear_count
+from
+  (
+  select city, count(customer_id) as c_count
+  from customers
+  group by city
+  ) as c
+inner join
+  (
+  select city, count(supplier_id) as s_count
+  from suppliers
+  group by city
+  ) as s
+on c.city = s.city
