@@ -6,7 +6,7 @@ Good morning. Here's your sql question for today.
 This question was asked by: Twitch
 subscriptions table
 
-column	         type
+column	       type
 user_id	        int
 start_date	date
 end_date	date
