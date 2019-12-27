@@ -7,7 +7,7 @@ This question was asked by: Twitch
 subscriptions table
 
 column	type
-user_id	      int
+user_id	       int
 start_date	date
 end_date	date
  
