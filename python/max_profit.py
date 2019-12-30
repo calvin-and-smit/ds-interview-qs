@@ -17,3 +17,17 @@ sell when it's 25. Note that we cannot make 25, because the stock is priced at 0
 
 '''
 
+
+stock_values = [2, 7, 1, 8, 2, 8, 14, 25, 14, 0, 4, 5]
+
+profit = 0
+days = len(stock_values)
+
+
+for i in range(0, days):
+  for j in stock_values[i:]:
+    if stock_values[j] - stock_values[i] > profit:
+      profit = stock_values[j] - stock_values[i]
+
+profit
+  
