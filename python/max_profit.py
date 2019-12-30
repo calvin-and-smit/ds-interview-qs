@@ -25,7 +25,7 @@ days = len(stock_values)
 
 
 for i in range(0, days):
-  for j in stock_values[i+1:]:
+  for j in range(i+1, days):
     if stock_values[j] - stock_values[i] > profit:
       profit = stock_values[j] - stock_values[i]
 
