@@ -30,4 +30,5 @@ for i in range(0, days):
       profit = stock_values[j] - stock_values[i]
 
 profit
-  
+
+
