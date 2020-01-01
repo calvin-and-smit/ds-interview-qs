@@ -4,7 +4,7 @@ Categorizing foods
 You are given the following dataframe and are asked to categorize each food 
 into 1 of 3 categories: meat, fruit, or other.
 
-      food	        pounds
+            food	        pounds
 0	bacon	        4.0
 1	STRAWBERRIES	3.5
 2	Bacon	        7.0
