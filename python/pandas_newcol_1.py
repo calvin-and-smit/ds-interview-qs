@@ -18,3 +18,7 @@ Given this, write code to add a new column categorizing each row.
 
 '''
 
+import pandas as pd
+
+df = pd.DataFrame("food" = ['bacon', 'STRAWBERRIES', 'Bacon', 'STRAWBERRIES', 'BACON', 'strawberries', 'Strawberries', 'pecans'], "pounds" = [4,3.5,7,3,6,9,1,3])
+
